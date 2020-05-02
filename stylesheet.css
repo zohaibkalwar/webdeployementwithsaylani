@@ -1,0 +1,131 @@
+*
+{
+    margin: 1px;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: darkgray;
+}
+nav{
+    position: fixed;
+    width: 70px;
+    margin-top: 120px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .4);
+}
+nav li {
+    height: 50px;
+    position: relative;
+}
+nav li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    padding-left: 25%;
+    border-bottom: 2px solid rgba(0, 0, 0, .4);
+    transition: all .3s linear;
+}
+nav li:nth-child(1) a{
+    background: #4267b2;
+}nav li:nth-child(2) a {
+    background: #1DA1F2;
+}nav li:nth-child(3) a{
+    background: #E1306C;
+}nav li:nth-child(4) a{
+    background: #2867B2;
+}nav li:nth-child(5) a{
+    background: #333;
+}nav li:nth-child(6) a{
+    background: #FF0000;
+}
+nav li a i{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 27px;
+}
+nav li a span {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+}
+a:hover {
+    z-index: 1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+}
+ul li a:hover span {
+    display: block;
+    padding-left: 30%;
+}
+.assignments {
+    background-color: dodgerblue;
+    border: #fff solid;
+    border-radius: 20px;
+    height: 60%;
+    width: 80%;
+    text-align: center;
+    padding: 25px;
+    margin: 9% 12%;
+    position: absolute;
+    text-decoration: none;
+}
+.assign {
+    border: rgb(126, 145, 161) solid;
+    background-color: #FF0000;
+    text-decoration: none;
+    padding: 15px;
+}
+.assign:hover{
+    background-color: rgba(39, 243, 39, 0.89);
+    color: blue;
+    transition: all .3s linear;
+    transition-duration: 0.3s;
+}
+a {
+    color: honeydew;
+    
+}
+.heading1 {
+    font-size: 40px;
+    text-align: center initial;
+    color: ivory;
+    padding: 0px;
+}
+.heading2 {
+    font-size: 30px;
+    text-align: center initial;
+    color: ivory;
+}
+.mypic {
+    background-color: teal; 
+    width: 200px; 
+    height: 220px;
+    position: absolute;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 0%;
+    margin: 11% 15%;
+    background-image: url(https://scontent.fkhi4-1.fna.fbcdn.net/v/t1.0-9/p960x960/72581004_2747337818610913_2582211892579663872_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_eui2=AeFvJDz6hCmdEi5Rvrm7ehaCVuqqIMEyTzNW6qogwTJPM-5uU9WwY178FBQwJYabqYCWH3uCEx_PbOjzwfvf6upG&_nc_ohc=17JaJtuHUcYAX-qsbYG&_nc_ht=scontent.fkhi4-1.fna&_nc_tp=6&oh=37c5c0403c5ded6bc849cc5ab29b1014&oe=5EC182A3);
+    background-repeat: no-repeat;
+    background-size: 200px 220px;
+    text-align: center;
+}
+.mypictext {
+    position: absolute;
+    border-radius: 5px;
+    border-style: groove;
+    bottom: -00px;
+    right: 20px;
+    background-color: rgba(113, 117, 90, 0.842);
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
